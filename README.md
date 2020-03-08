@@ -13,5 +13,3 @@ Fetch data from the system variable.
 
 - File: Select a .env file to load into the Insomnia process
 - Variable name: The name of the variable to fetch
-
-`argumentName: argumentValue, argumentName2: argumentValue2`
