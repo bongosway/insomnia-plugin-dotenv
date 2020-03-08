@@ -1,0 +1,17 @@
+{
+  "name": "insomnia-plugin-systemenv",
+  "version": "0.0.1",
+  "author": "Edirin Atumah <dumbdev@gmail.com>",
+  "description": "Template tag to pull data from system variables",
+  "license": "MIT",
+  "repository": "",
+  "main": "index.js",
+  "insomnia": {
+    "name": "system-env",
+    "description": "Template tag to pull data from system variables"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security"
+  }
+}
