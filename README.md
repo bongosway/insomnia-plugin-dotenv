@@ -7,14 +7,17 @@ Fetch data from a .env file.
 - Open Insomnia options (Ctrl + , | Cmd + ,)
 - Write `insomnia-plugin-dotenv` on the **Plugins** tab
 
-![](install.mp4)
+![](pix/install.gif)
 
 ### Usage:
 To load `.env` file via system dialog
 
-![](single.mp4)
+![](pix/single.gif)
+
 
 To add `.env` via environment variable
-![](env.mp4)
 
-![](change.gif)
+![](pix/env.gif)
+
+
+![](pix/change.gif)
