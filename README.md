@@ -1,8 +1,8 @@
-# Insomnia Plugin - Systemenv
+# Insomnia Plugin - dotenv
 
 ## System Environment Variable
 
-Fetch data from the system variable.
+Fetch data from a .env file.
 
 ### Installation:
 
