@@ -18,18 +18,22 @@ module.exports.templateTags = [
         type: 'string'
       }
     ],
-    run(context, path, sysvar) {
+    run(context, path, varName) {
       fs.stat(path, function(err) {
         if (err && err.code === 'ENOENT')
           console.log('File or directory not found');
       });
 
-      dotenv.config({ path: path });
-      if (process.env[sysvar] === undefined) {
+      const config = dotenv.config({ path: path });
+      if (!config || config.error) {
+        throw new Error('Unexpected error occured when parsing the config file', config.error);
+      }
+      
+      if (config.parsed[varName] === undefined) {
         throw new Error('Variable not found!');
       }
 
-      return process.env[sysvar];
+      return config.parsed[varName];
     }
   }
 ];
