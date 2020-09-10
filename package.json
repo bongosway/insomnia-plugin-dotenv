@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-dotenv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Insomnia template tag to pull data from .env file",
   "author": "Edirin Atumah <dumbdev@gmail.com>",
   "repository": {

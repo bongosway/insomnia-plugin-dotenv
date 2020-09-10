@@ -1,7 +1,5 @@
 # Insomnia Plugin - dotenv
 
-## System Environment Variable
-
 Fetch data from a .env file.
 
 ### Installation:
@@ -9,7 +7,14 @@ Fetch data from a .env file.
 - Open Insomnia options (Ctrl + , | Cmd + ,)
 - Write `insomnia-plugin-dotenv` on the **Plugins** tab
 
-### Args:
+![](install.mp4)
 
-- File: Select a .env file to load into the Insomnia process
-- Variable name: The name of the variable to fetch
+### Usage:
+To load `.env` file via system dialog
+
+![](single.mp4)
+
+To add `.env` via environment variable
+![](env.mp4)
+
+![](change.gif)
