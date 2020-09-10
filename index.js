@@ -3,9 +3,9 @@ const fs = require('fs');
 
 module.exports.templateTags = [
   {
-    displayName: 'SystemEnv',
-    name: 'systemenv',
-    description: 'Pull data from system variables',
+    displayName: 'dotenv',
+    name: 'dotenv',
+    description: 'Pull data from .env',
     args: [
       {
         displayName: 'Choose .Env File',

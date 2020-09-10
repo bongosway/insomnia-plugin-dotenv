@@ -7,7 +7,7 @@ Fetch data from the system variable.
 ### Installation:
 
 - Open Insomnia options (Ctrl + , | Cmd + ,)
-- Write `insomnia-plugin-systemenv` on the **Plugins** tab
+- Write `insomnia-plugin-dotenv` on the **Plugins** tab
 
 ### Args:
 

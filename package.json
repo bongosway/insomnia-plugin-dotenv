@@ -1,16 +1,16 @@
 {
-  "name": "insomnia-plugin-systemenv",
+  "name": "insomnia-plugin-dotenv",
   "version": "1.0.0",
-  "description": "Insomnia template tag to pull data from system variables",
+  "description": "Insomnia template tag to pull data from .env file",
   "author": "Edirin Atumah <dumbdev@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bongosway/insomnia-plugin-systemenv"
+    "url": "https://github.com/bongosway/insomnia-plugin-dotenv"
   },
   "bugs": {
-    "url": "https://github.com/bongosway/insomnia-plugin-systemenv/issues"
+    "url": "https://github.com/bongosway/insomnia-plugin-dotenv/issues"
   },
-  "homepage": "https://github.com/bongosway/insomnia-plugin-systemenv",
+  "homepage": "https://github.com/bongosway/insomnia-plugin-dotenv",
   "keywords": [
     "insomnia",
     "api",
@@ -19,8 +19,8 @@
   "license": "MIT",
   "main": "index.js",
   "insomnia": {
-    "name": "system-env",
-    "description": "Template tag to pull data from system variables"
+    "name": "dotenv",
+    "description": "Template tag to pull data from from .env file"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
