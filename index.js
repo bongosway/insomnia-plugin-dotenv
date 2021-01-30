@@ -1,4 +1,7 @@
 const dotenv = require('dotenv');
+const untildify = require('untildify');
+const dotenvExpand = require('dotenv-expand');
+
 const fs = require('fs');
 
 module.exports.templateTags = [
@@ -16,17 +19,22 @@ module.exports.templateTags = [
         displayName: 'Variable Name',
         description: 'Name of the variable',
         type: 'string'
-      }
+      } 
     ],
     run(context, path, varName) {
-      fs.stat(path, function(err) {
+      const expandedPath = untildify(path);
+    
+      fs.stat(expandedPath, function(err) {
         if (err && err.code === 'ENOENT')
           console.log('File or directory not found');
       });
 
-      const config = dotenv.config({ path: path });
+      const config = dotenv.config({ path: expandedPath });
+      dotenvExpand(config);
+
+
       if (!config || config.error) {
-        throw new Error('Unexpected error occured when parsing the config file', config.error);
+        throw new Error('We could not parse the config..what have you done 😃', config.error);
       }
       
       if (config.parsed[varName] === undefined) {

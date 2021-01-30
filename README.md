@@ -7,19 +7,27 @@ Fetch data from a .env file.
 ### Installation:
 
 - Open Insomnia options (Ctrl + , | Cmd + ,)
-- Write `insomnia-plugin-dotenv` on the **Plugins** tab
+- Type `insomnia-plugin-dotenv` on the **Plugins** tab
 
 ![](pix/install.gif)
 
 ### Usage:
-To load `.env` file via system dialog
+- To load `.env` file via system dialog
 
 ![](pix/single.gif)
 
 
-To add `.env` via environment variable
+- To add `.env` via environment variable
 
 ![](pix/env.gif)
 
 
 ![](pix/change.gif)
+
+- Multiple users can use relative path, which resolves to their specific location
+
+![](pix/expandEnv.gif)
+
+- Add Environment variables inside your .env file, it will be expanded automatically
+
+![](pix/expandInsideEnv.gif)
