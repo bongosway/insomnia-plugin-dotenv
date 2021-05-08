@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-dotenv",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Insomnia template tag to pull data from .env file",
   "author": "Edirin Atumah <dumbdev@gmail.com>",
   "repository": {
@@ -16,6 +16,9 @@
     "api",
     "insomnia-plugin"
   ],
+  "scripts": {
+    "test": "jest"
+  },
   "license": "MIT",
   "main": "index.js",
   "insomnia": {
@@ -27,5 +30,8 @@
     "dotenv-expand": "^5.1.0",
     "fs": "^0.0.1-security",
     "untildify": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
