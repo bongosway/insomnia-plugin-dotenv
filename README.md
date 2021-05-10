@@ -1,6 +1,8 @@
 # Insomnia Plugin - dotenv
+
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bongosway/insomnia-plugin-dotenv/Publish?label=Publish%20to%20NPM&logo=github) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/bongosway/insomnia-plugin-dotenv?logo=npm)
 ![npm](https://img.shields.io/npm/dt/insomnia-plugin-dotenv?logo=npm)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bongosway/insomnia-plugin-dotenv/node_tests?label=tests&logo=github)
 
 Fetch data from a .env file.
 
@@ -12,15 +14,14 @@ Fetch data from a .env file.
 ![](pix/install.gif)
 
 ### Usage:
+
 - To load `.env` file via system dialog
 
 ![](pix/single.gif)
 
-
 - To add `.env` via environment variable
 
 ![](pix/env.gif)
-
 
 ![](pix/change.gif)
 
