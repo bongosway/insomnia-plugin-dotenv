@@ -1,5 +1,5 @@
 const index = require('../index.js').templateTags[0];
-const env = './__tests__/.env';
+const env = './__tests__/.env.test';
 
 test('return correct key value', () => {
     expect(index.run('', env, 'CHEESE')).toEqual("CAKE");
