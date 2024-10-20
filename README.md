@@ -1,8 +1,9 @@
 # Insomnia Plugin - dotenv
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bongosway/insomnia-plugin-dotenv/Publish?label=Publish%20to%20NPM&logo=github) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/bongosway/insomnia-plugin-dotenv?logo=npm)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bongosway/insomnia-plugin-dotenv/Publish?label=Publish%20to%20NPM&logo=github) 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/bongosway/insomnia-plugin-dotenv?logo=npm)
 ![npm](https://img.shields.io/npm/dt/insomnia-plugin-dotenv?logo=npm)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bongosway/insomnia-plugin-dotenv/node_tests?label=tests&logo=github)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/bongosway/insomnia-plugin-dotenv/node.js.yml?style=flat&logo=github&label=tests)
 
 Fetch data from a .env file.
 
